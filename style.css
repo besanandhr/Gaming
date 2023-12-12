@@ -1,0 +1,244 @@
+body{
+   margin: 0;
+    padding: 0;    
+}   
+ 
+div.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+div.navbar a {
+    color: white;
+    margin: 20px;
+}
+div.joinnavbar{
+background-color: black;
+    
+}
+
+div.navbar a.join {
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: white;
+}
+
+div.details {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+
+div.details button {
+    padding: 20px;
+    border-radius: 7px;
+    border: 2px solid white;
+    background-color: white;
+    color: darkturquoise;
+}
+div.maincontent {
+    height: 680px;
+    background-image:url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.gamedetails buttom{
+  padding:4px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: white;  
+    color:
+        turquoise;
+}
+div.upcoming h1{
+text-align: center;
+}
+
+div.game img{    
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;}
+
+div.game2 img{
+    background-image: url(callofduty.jpg);
+}
+
+
+
+
+div.game{text-align: center;}
+div.games{
+display: flex;    
+justify-content:space-around;    
+ align-items: center;  
+ width: 80%;   
+margin: auto;
+}
+div.maingame{
+display: flex;
+justify-content: center;
+    width: 60%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+    line-height: 25px;
+}
+div.maingame img{   
+    margin-right: -150px;   
+    border-radius: 20px;
+}
+div.postscontent{
+  
+}
+
+div.posts{
+ display: flex;
+justify-content:space-around;
+    width: 60%;
+    margin: auto;
+ align-items: center; 
+}
+div.post{
+    margin: 25px;
+    background-color:darkblue;
+    color: white;
+     border-radius: 8px;
+    padding: 10px;
+}
+div.posts h3{
+    padding: 10px;
+}
+div.post p{
+    font-size: 15;
+}
+div.hs{
+    display: inline-block;
+}
+div.post div.img{
+    background-image: url(carl-raw-m3hn2Kn5Bns-unsplash.jpg);
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+div.test{
+align-items: center;
+    justify-content: center;
+}
+div.tistis{
+    display: flex;
+justify-content:space-around;
+    width: 50%;
+    margin: auto;
+ align-items: center;  
+}
+div.tistis h1{
+    text-align: center;
+}
+div.tisti{
+    background-color: black;
+    color: white;
+    margin: 50px;
+    text-align: center;
+}
+div.tisti1 div.img{
+    background-image: url(beauty.png);
+    height:100px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+div.tisti2 div.img{
+    background-image: url(boy.png);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+div.pricing h2{
+    text-align: center;
+}
+div.prices{
+ display: flex;
+justify-content: center;
+    width: 60%;
+text-align: center;
+    margin: auto;
+
+}
+div.price{
+    width: 30%;
+    background-color: deeppink;
+    color: white;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+div.price buttom{
+    padding:4px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: white;  
+    color:  transparent;  
+}
+div.plan details{
+    background-color: darkblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.planprice h3{
+    margin: 0px;
+}
+div.joinform{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    width: 70px;
+}div.joinform{
+     display: flex;
+    justify-content: center;
+    margin: auto;
+    width:70%;
+    border: 1px solid white;
+}
+div.join form{
+    width: 60%;
+}
+div.join image{
+    width: 50%;
+    background-image: url(pexels-dapo-abideen-5677459.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    padding: 15px;
+    border: 10px;
+    
+}
+form input.form buttom{
+    
+    padding: 10px;
+    font-size: 16px;
+    height: 400px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+}
+div.form buttom{
+    background-color: palevioletred;
+    color: white;
+}
